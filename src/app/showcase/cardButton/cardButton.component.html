@@ -1,0 +1,11 @@
+<div style="display:flex;flex-wrap: wrap; gap: 1rem; margin-top: 2rem;">
+  <ng-container *ngFor="let card of valueButton,index as i">
+    <mt-card-button [check]="card.check || false" (btnClick)="changeSelect(i)">
+      <span icon class="material-symbols-outlined">
+        {{card.icon}}
+      </span>
+      <p title>{{card.title}}</p>
+      <p subtitle>{{card.subtitle}}</p>
+    </mt-card-button>
+  </ng-container>
+</div>

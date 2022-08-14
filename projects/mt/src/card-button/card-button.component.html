@@ -1,0 +1,7 @@
+<div (click)="changeSelect()" class="flex container row" [ngClass]="{'select': check,'notSelect':!check}">
+  <ng-content select="[icon]"></ng-content>
+  <div class="flex colum">
+    <ng-content select="[title]"></ng-content>
+    <ng-content select="[subtitle]"></ng-content>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+.showcase,
+.menu {
+  padding: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid var(--primaryColor);
+}
+a {
+  text-decoration: none;
+  background-color: var(--primaryColor);
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mt-angular",
+  "version": "0.0.3",
+  "license": "MIT",
+  "author": {
+    "email": "antoniofranco.dev@gmail.com",
+    "name": "Antonio Franco"
+  },
+  "description": "Ejemplo de una libreria de angular",
+  "keywords": [
+    "angular",
+    "libreria",
+    "angular-cli"
+  ],
+  "repository": "https://github.com/francoantonio/mtLibrary",
+  "homepage": "https://github.com/francoantonio/mtLibrary",
+  "peerDependencies": {
+    "@angular/common": "^14.1.0",
+    "@angular/core": "^14.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
